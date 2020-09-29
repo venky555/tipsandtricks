@@ -1,0 +1,21 @@
+GIT Commands
+
+to pull code from master to feature
+git checkout dmgr2
+git pull origin master
+
+
+git reset HEAD~1 
+
+git reset --hard hrs_rel_202006 
+
+git checkout
+
+git pull
+
+To delete the feature branch (to delete the feature branch you need to come out of that branch and execute the below cmds)
+git checkout master
+git branch -d branch_name
+
+To delete the feature branch remotely
+git push origin --delete feature/LoggingCheck 
